@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shops",
+  "info": {
+    "name": "shop"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "mobile": {
+      "unique": true,
+      "type": "integer"
+    },
+    "address": {
+      "type": "text"
+    }
+  }
+}
