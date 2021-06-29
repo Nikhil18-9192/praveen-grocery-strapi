@@ -15,18 +15,20 @@
     "name": {
       "type": "string"
     },
-    "mobile": {
-      "unique": true,
-      "type": "integer"
-    },
     "address": {
       "type": "text"
     },
     "lat": {
-      "type": "float"
+      "type": "float",
+      "default": 0
     },
     "lng": {
-      "type": "float"
+      "type": "float",
+      "default": 0
+    },
+    "mobile": {
+      "type": "string",
+      "unique": true
     }
   }
 }
