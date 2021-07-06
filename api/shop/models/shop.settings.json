@@ -29,6 +29,13 @@
     "mobile": {
       "type": "string",
       "unique": true
+    },
+    "owner": {
+      "type": "string"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
