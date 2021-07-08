@@ -36,6 +36,10 @@
     "user": {
       "plugin": "users-permissions",
       "model": "user"
+    },
+    "tag": {
+      "via": "shops",
+      "model": "tag"
     }
   }
 }
